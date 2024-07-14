@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EY_CodeFirst_BusinessEntities\EY_CodeFirst_BusinessEntities.csproj" />
+    <ProjectReference Include="..\EY_RepositoryLayer\EY_CodeFirst_RepositoryLayer.csproj" />
+  </ItemGroup>
+
+</Project>
