@@ -141,6 +141,7 @@ namespace EY_CodeFirst.Controllers
         }
         public string GetData(string Hello)
         {
+            
             return Hello;
         }
     }
