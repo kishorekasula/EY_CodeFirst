@@ -139,6 +139,9 @@ namespace EY_CodeFirst.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "System or Server Error");
             }
         }
-
+        public string GetData(string Hello)
+        {
+            return Hello;
+        }
     }
 }
