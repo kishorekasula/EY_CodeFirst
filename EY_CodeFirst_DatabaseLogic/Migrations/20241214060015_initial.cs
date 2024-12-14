@@ -4,7 +4,7 @@
 
 namespace EY_CodeFirst_DatabaseLogic.Migrations
 {
-    public partial class INITIAL : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

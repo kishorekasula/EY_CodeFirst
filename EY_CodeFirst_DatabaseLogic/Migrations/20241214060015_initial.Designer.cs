@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EY_CodeFirst_DatabaseLogic.Migrations
 {
     [DbContext(typeof(EmployeeManagementContext))]
-    [Migration("20240714121535_INITIAL")]
-    partial class INITIAL
+    [Migration("20241214060015_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

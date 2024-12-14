@@ -14,7 +14,7 @@ namespace EY_CodeFirst_DatabaseLogic.DBConnect
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-CVCQ7OO;initial Catalog=EY_CodeFirst;Integrated Security=True;");
+            optionsBuilder.UseSqlServer(@"Data Source=KISHORE\SQLEXPRESS;initial Catalog=EY_CodeFirst;Integrated Security=True;");
         }
     }
 }
